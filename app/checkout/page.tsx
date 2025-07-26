@@ -57,7 +57,7 @@ export default function CheckOut() {
         <Button variant={"default"} type="submit" className="w-full">
           Proceed to Payment
         </Button>
-        <Button variant={"default"} onClick={clearCart} className="w-full">
+        <Button variant={"outline"} onClick={clearCart} className="w-full">
           Clear Cart
         </Button>
       </form>
